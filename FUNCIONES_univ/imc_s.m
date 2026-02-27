@@ -1,0 +1,31 @@
+fd1 = tf([0 1],[(filt) 1]);
+fd2 = tf([0 1],[(filt) 1]);
+fd3 = tf([0 1],[(filt) 1]);
+fd4 = tf([0 1],[(filt) 1]);
+F_d = [fd1 0 0 0;0 fd2 0 0; 0 0 fd3 0; 0 0 0 fd4];
+
+%
+Kimc_u_s = (Gs)^-1*F_d;
+
+K_clasica_s = [eye(size(Kimc_u_s))-Kimc_u_s*Gs]^-1*Kimc_u_s;
+
+
+% SPARSE
+% Kimc_u=Kimc_u_d
+Kimc_u=Kimc_u_s
+% Kimc_u=Kimc_u_f
+
+% Gimc=Gd
+Gimc=Gs
+% Gimc=Gf
+
+% K_clasica = K_clasica_d
+K_clasica = K_clasica_s;
+% K_clasica = K_clasica_f;
+
+switch_var=1
+try
+    inicializar_areas
+catch
+    inicializar_areas_ej7
+end
