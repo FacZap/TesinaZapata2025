@@ -6,7 +6,7 @@
 
 ## Un estudio y análisis práctico de Redes de Intercambio Calórico,  su simulación en el entorno Simulink e implementación de controladores multivariables
 
-[Etapa I]([url](https://github.com/FacZap/TesinaZapata2025/blob/main/Ejemplo1/README_Ejemplo1.md))
+[Etapa I]([https://github.com/FacZap/TesinaZapata2025/blob/main/Ejemplo1/README_Ejemplo1.md])
 
 
 
