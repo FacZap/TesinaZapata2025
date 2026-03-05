@@ -38,7 +38,6 @@ Script de inicialización de variables para simulación. Define:
 Variante de `INI` para identificación de sistemas. Similar a `INI` pero incluye:
 - Definición explícita de todas las variables `u1`–`u7` y `d1`–`d8` con valores inicial y final
 - Inicialización de `u1`–`u3` con `initials(1-3)`
-- `t_sp_change=0` para análisis de identificación
 
 ---
 
@@ -81,7 +80,7 @@ Variante de `iter_loops` para controladores IMC. Carga matrices IMC, usa `Simuli
 ## Análisis de Resultados
 
 ### `error_sgnd.m`
-Script para calcular error relativo con signo. Extrae valores finales de `yout` y calcula:
+Script para calcular error relativo con signo (en %). Extrae valores finales de `yout` y calcula:
 
 ```
 err_sgnd(k) = (y_final - sp_k) / sp_k × 100
