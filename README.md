@@ -11,6 +11,17 @@
 
 [Etapa II - segunda sintesis](https://github.com/FacZap/TesinaZapata2025/blob/main/Ejemplo7/README_Ejemplo7.md)
 
+[Funciones Universales](https://github.com/FacZap/TesinaZapata2025/blob/main/FUNCIONES_univ/README_Funciones.md)
+
+Cada uno de los siguientes links lleva a su respectivo README, donde se puede leer en detalle una descripción de cada archivo de la carpeta y sun función.
+
+En la carpeta Excel se pueden hallar los archivos con los datos correspondientes
+En la carpeta de Bibliografía, dos de los papers más consultados en la realización de este trabajo.
+
+Por último, se adjuntó una copia del informe final entregado a la facultad, como PDF.
+
+TODO: Adjuntar presentación usada en la exposición.
+
 
 
 
